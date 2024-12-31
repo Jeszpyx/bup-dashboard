@@ -1,6 +1,5 @@
-import { AppShell, Box, Burger, Center, Text } from "@mantine/core";
+import { AppShell } from "@mantine/core";
 import Navbar from "./components/Navbar";
-import { useEffect } from "react";
 import Main from "./components/Main";
 import { Routes, Route } from "react-router";
 import Header from "./components/Header";
@@ -8,11 +7,6 @@ import Header from "./components/Header";
 const headerHeight = 60
 
 function App() {
-
-
-  useEffect(() => {
-
-  }, [])
 
   return (
     <AppShell
